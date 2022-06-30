@@ -38,7 +38,7 @@ function PortfolioManager() {
   </Flex>
 
      <HStack spacing={200} paddingLeft={200} paddingRight={200} paddingTop={25} alignContent="center">
-      <Box paddingBottom={5} bg='purple.100'>
+      <Box paddingBottom={5} bg='purple.100' border={"1px"} borderRadius={'lg'}>
         <VStack>
           <Box>
             <Image 
@@ -63,7 +63,7 @@ function PortfolioManager() {
           </VStack>
       </Box>
       
-      <Box paddingBottom={5} bg='purple.100'>
+      <Box paddingBottom={5} bg='purple.100' border={"1px"} borderRadius={'lg'}>
         <VStack>
           <Box>
             <Image 

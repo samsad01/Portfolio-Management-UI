@@ -38,7 +38,7 @@ function CalculatePortfolio() {
 </Flex>
     </nav>
     <Flex paddingTop={10} paddingLeft={500} paddingRight={300}>
-      <Box paddingBottom={5} bg='purple.100'>
+      <Box paddingBottom={5} bg='purple.200' border={"1px"} borderRadius={'lg'}>
         <VStack>
           <Box>
             <Image 
